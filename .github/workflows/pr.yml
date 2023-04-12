@@ -17,6 +17,7 @@ permissions:
 jobs: 
   pr-infra-check:
     runs-on: ubuntu-latest
+    environment: dev
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
